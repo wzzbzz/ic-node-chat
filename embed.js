@@ -14,7 +14,7 @@
 			chatFrame.setAttribute("scrolling", "no");
 			chatFrame.setAttribute("role", "chat-window");
 			chatFrame.setAttribute("title", "Chat");
-			chatFrame.setAttribute("src", "http://local.chat.com:8080/?=" + chatName);
+			chatFrame.setAttribute("src", "http://chat.insertculture.com:8080/?=" + chatName);
 			chatFrame.setAttribute("style", "min-width: 300px; min-height: 300px;");
 
 			chatAnchor.appendChild(chatFrame);
