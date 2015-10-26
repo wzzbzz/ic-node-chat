@@ -1,0 +1,75 @@
+<!doctype html>
+
+<html>
+
+	<head>
+
+		<title>IC Chat</title>
+
+		<link href="/bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+		<link href="/css/main.css" rel="stylesheet">
+
+	</head>
+
+	<body>
+
+		<div id="ic-chat-login" class="container">
+
+			<form action="" id="chat-login-form">
+
+				<div class="form-group">
+					<label for="chat-username">Enter a User Name:</label>
+					<input id="chat-username" autocomplete="off" class="form-control">
+				</div>
+
+				<div class="form-group">
+					<button class="btn btn-default btn-primary btn-block">Submit</button>
+				</div>
+
+			</form>
+
+		</div>
+
+		<div id="ic-chat-avatars" class="container">
+
+			<div id="chat-avatars">
+
+				<h2>Choose an Avatar</h2>
+
+				<div class="row"></div>
+
+			</div>
+
+		</div>
+
+		<div id="ic-chat">	
+	
+			<div id="chat-window" class="container-fluid">
+
+				<div id="chat-message-log"></div>
+
+			</div>
+
+			<form action="" id="chat-message-form" class="container-fluid">
+
+				<div class="form-group col-md-10">
+					<input id="chat-message" autocomplete="off" class="form-control">
+				</div>
+
+				<div class="form-group col-md-2">
+					<button class="btn btn-default btn-primary btn-block">Send</button>
+				</div>
+
+			</form>
+
+		</div>
+
+		<script src="/socket.io/socket.io.js"></script>
+		<script type='text/javascript' src='/bower_components/jquery/dist/jquery.min.js' defer='defer'></script>
+		<script type='text/javascript' src='/bower_components/bootstrap/dist/js/bootstrap.min.js' defer='defer'></script>
+		<script type='text/javascript' src='/bower_components/bootstrap-validator/dist/validator.min.js' defer='defer'></script>
+		<script type='text/javascript' src='/js/global.js' defer='defer'></script>
+
+	</body>
+
+</html>

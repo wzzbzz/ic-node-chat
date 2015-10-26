@@ -1,0 +1,22 @@
+{
+  "name": "ic-chat-app",
+  "version": "0.1.0",
+  "description": "Nodejs + socket.io chat application",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+ "dependencies": {
+    "express": "4.x",
+    "socket.io" : "1.x"
+  },
+  "engines": {
+    "node": "4.0.x"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "chat"
+  ],
+  "author": "Joey Dehnert"
+}

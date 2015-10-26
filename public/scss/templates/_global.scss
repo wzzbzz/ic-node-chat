@@ -1,0 +1,70 @@
+html, body{
+  height:100%;
+}
+
+#chat-login-form{
+	margin: 100px auto 0;
+	width: 50%;
+}
+
+#ic-chat-avatars{
+	display: none;
+	margin: 0 auto;
+	width: 50%;
+
+	.row{
+		height: 300px;
+		overflow-y: scroll;
+	}
+
+}
+
+#ic-chat{
+	background-color: #ddd;
+	height: 100%;
+	display: none;
+
+	#chat-window{
+		height: 75%;
+
+		@media (min-width: 992px){
+			height: 88%;
+		}
+
+		#chat-message-log { 
+			bottom: 27%;
+			position: absolute;
+			overflow-y: scroll;
+			max-height: 73%;
+
+			@media (min-width: 992px){
+				bottom: 14%;
+				max-height: 86%;
+			}
+
+			h4{
+				font-weight: bold;
+			}
+
+			.ic-chat-icon{
+				width: 50px; height: 50px;
+			}
+
+		}
+
+	}
+
+	#chat-form { 
+		bottom: 0;
+		padding: 0;
+		position: fixed; 
+		width: 100%;
+		
+		.container{
+			padding-left: 0px;
+			padding-right: 0px;
+		}
+
+	}
+
+}

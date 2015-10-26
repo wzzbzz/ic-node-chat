@@ -1,0 +1,15 @@
+{
+  "name": "insert-culture-chat-client",
+  "description": "Insert Culture anonymous chat client",
+  "version": "0.0.1",
+  "homepage": "http://insertculture.com",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "modernizr": "2.8.3",
+    "jquery": "~2.1.1",
+    "bootstrap": "~3.3.5",
+    "bootstrap-form-helpers": "2.3.0",
+    "bootstrap-validator": "0.9.0"
+  }
+}
